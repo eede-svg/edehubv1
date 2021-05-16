@@ -26,6 +26,11 @@ b:Button("Nexagon",function()
 
 end)
 
+b:Button("Autoarrest ",function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/HazeWasTaken/Loaf-Group-Rise-Up/main/autoarrest.lua", true))()
+  
+end)
+
 local b = w:CreateFolder("Arsenal") -- Creates the folder(U will put here your buttons,etc)
 
 b:Button("Arsenal Menu",function()
